@@ -1,3 +1,19 @@
+
 body {
-    background: red;
+        background-color: green;
+        header {
+            .navbar {
+                background-color: rgba(0, 0, 0, 0.5);
+                button {
+                    border: none;
+                    .fa{
+                    color:white;
+                    }
+                }
+                .navbar-brand {
+                    color: white;
+                    font-size: 1.6rem;
+                }
+            }
+        }
 }

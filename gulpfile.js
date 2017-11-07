@@ -52,7 +52,6 @@ gulp.task('pugTranslate', function() {
  */
 gulp.task('watch',['browserSync', 'sass', 'pugTranslate'], function() {
     gulp.watch('app/views/*.pug', ['pugTranslate']);
-    gulp.watch('app/styles/styles.scss', ['sass', 'pugTranslate', browserSync.reload]);
+    gulp.watch('app/styles/styles.scss', ['sass', browserSync.reload]);
     gulp.watch('app/js/**/*.js', browserSync.reload);
-    gulp.watch('*.html', browserSync.reload);
 })
