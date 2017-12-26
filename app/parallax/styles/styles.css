@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+}
+.containerwrapper {
+    width: 100% !important;
+}
+section {
+    position: relative;
+    background-attachment: fixed;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100% !important;
+}
+h1 {
+    color: gray;
+}
+
+p {
+    font-size: 50px;
+}
+
+#section1 {
+    background-image: url("./../assets/media/covers/1.jpeg");
+}
+
+#section2 {
+    background-image: url("./../assets/media/covers/2.jpeg");
+
+}
+
+#section3 {
+    background-image: url("./../assets/media/covers/3.jpeg");
+}
